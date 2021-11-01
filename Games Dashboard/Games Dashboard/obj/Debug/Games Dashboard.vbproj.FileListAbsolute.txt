@@ -1,0 +1,12 @@
+C:\Users\ASUS\AppData\Local\Temporary Projects\Games Dashboard\bin\Debug\Games Dashboard.exe.config
+D:\Semua Projek VB.Net\Game Dashboard\Games Dashboard\Games Dashboard\bin\Debug\Games Dashboard.exe.config
+D:\Semua Projek VB.Net\Game Dashboard\Games Dashboard\Games Dashboard\obj\Debug\Games_Dashboard.Dashboard.resources
+D:\Semua Projek VB.Net\Game Dashboard\Games Dashboard\Games Dashboard\obj\Debug\Games_Dashboard.Resources.resources
+D:\Semua Projek VB.Net\Game Dashboard\Games Dashboard\Games Dashboard\obj\Debug\Games Dashboard.vbproj.GenerateResource.Cache
+D:\Semua Projek VB.Net\Game Dashboard\Games Dashboard\Games Dashboard\bin\Debug\Games Dashboard.exe
+D:\Semua Projek VB.Net\Game Dashboard\Games Dashboard\Games Dashboard\bin\Debug\Games Dashboard.pdb
+D:\Semua Projek VB.Net\Game Dashboard\Games Dashboard\Games Dashboard\bin\Debug\Games Dashboard.xml
+D:\Semua Projek VB.Net\Game Dashboard\Games Dashboard\Games Dashboard\bin\Debug\Guna.UI.dll
+D:\Semua Projek VB.Net\Game Dashboard\Games Dashboard\Games Dashboard\obj\Debug\Games Dashboard.exe
+D:\Semua Projek VB.Net\Game Dashboard\Games Dashboard\Games Dashboard\obj\Debug\Games Dashboard.xml
+D:\Semua Projek VB.Net\Game Dashboard\Games Dashboard\Games Dashboard\obj\Debug\Games Dashboard.pdb
