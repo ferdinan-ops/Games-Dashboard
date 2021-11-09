@@ -48,11 +48,13 @@ Partial Class Dashboard
         Me.GunaElipse12 = New Guna.UI.WinForms.GunaElipse(Me.components)
         Me.GunaPanel10 = New Guna.UI.WinForms.GunaPanel()
         Me.Label29 = New System.Windows.Forms.Label()
+        Me.GunaButton14 = New Guna.UI.WinForms.GunaButton()
         Me.Label30 = New System.Windows.Forms.Label()
         Me.GunaElipse10 = New Guna.UI.WinForms.GunaElipse(Me.components)
         Me.GunaPanel8 = New Guna.UI.WinForms.GunaPanel()
         Me.Label10 = New System.Windows.Forms.Label()
         Me.Label9 = New System.Windows.Forms.Label()
+        Me.GunaButton13 = New Guna.UI.WinForms.GunaButton()
         Me.GunaElipse9 = New Guna.UI.WinForms.GunaElipse(Me.components)
         Me.GunaPanel7 = New Guna.UI.WinForms.GunaPanel()
         Me.GunaElipse8 = New Guna.UI.WinForms.GunaElipse(Me.components)
@@ -64,12 +66,16 @@ Partial Class Dashboard
         Me.GunaPanel5 = New Guna.UI.WinForms.GunaPanel()
         Me.GunaElipse6 = New Guna.UI.WinForms.GunaElipse(Me.components)
         Me.GunaPanel4 = New Guna.UI.WinForms.GunaPanel()
+        Me.Label33 = New System.Windows.Forms.Label()
         Me.Label12 = New System.Windows.Forms.Label()
+        Me.GunaButton12 = New Guna.UI.WinForms.GunaButton()
         Me.GunaElipse5 = New Guna.UI.WinForms.GunaElipse(Me.components)
         Me.GunaPanel3 = New Guna.UI.WinForms.GunaPanel()
         Me.GunaElipse4 = New Guna.UI.WinForms.GunaElipse(Me.components)
         Me.GunaPanel2 = New Guna.UI.WinForms.GunaPanel()
+        Me.Label34 = New System.Windows.Forms.Label()
         Me.Label11 = New System.Windows.Forms.Label()
+        Me.GunaButton10 = New Guna.UI.WinForms.GunaButton()
         Me.GunaElipse3 = New Guna.UI.WinForms.GunaElipse(Me.components)
         Me.GunaPanel1 = New Guna.UI.WinForms.GunaPanel()
         Me.GunaElipsePanel2 = New Guna.UI.WinForms.GunaElipsePanel()
@@ -93,7 +99,6 @@ Partial Class Dashboard
         Me.GunaButton2 = New Guna.UI.WinForms.GunaButton()
         Me.GunaButton1 = New Guna.UI.WinForms.GunaButton()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
-        Me.GunaElipse1 = New Guna.UI.WinForms.GunaElipse(Me.components)
         Me.panel_dashboard = New System.Windows.Forms.Panel()
         Me.GunaElipsePanel1 = New Guna.UI.WinForms.GunaElipsePanel()
         Me.GunaTransfarantPictureBox2 = New Guna.UI.WinForms.GunaTransfarantPictureBox()
@@ -110,15 +115,9 @@ Partial Class Dashboard
         Me.GunaPanel11 = New Guna.UI.WinForms.GunaPanel()
         Me.GunaPanel12 = New Guna.UI.WinForms.GunaPanel()
         Me.Label31 = New System.Windows.Forms.Label()
+        Me.GunaButton11 = New Guna.UI.WinForms.GunaButton()
         Me.Label32 = New System.Windows.Forms.Label()
         Me.GunaElipse2 = New Guna.UI.WinForms.GunaElipse(Me.components)
-        Me.GunaButton10 = New Guna.UI.WinForms.GunaButton()
-        Me.GunaButton11 = New Guna.UI.WinForms.GunaButton()
-        Me.GunaButton12 = New Guna.UI.WinForms.GunaButton()
-        Me.GunaButton13 = New Guna.UI.WinForms.GunaButton()
-        Me.GunaButton14 = New Guna.UI.WinForms.GunaButton()
-        Me.Label33 = New System.Windows.Forms.Label()
-        Me.Label34 = New System.Windows.Forms.Label()
         Me.panel_account.SuspendLayout()
         CType(Me.GunaCirclePictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.panel_info.SuspendLayout()
@@ -444,6 +443,34 @@ Partial Class Dashboard
         Me.Label29.Text = "Flash Card Math"
         Me.Label29.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
+        'GunaButton14
+        '
+        Me.GunaButton14.Animated = True
+        Me.GunaButton14.AnimationHoverSpeed = 0.07!
+        Me.GunaButton14.AnimationSpeed = 0.03!
+        Me.GunaButton14.BackColor = System.Drawing.Color.Transparent
+        Me.GunaButton14.BaseColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(230, Byte), Integer))
+        Me.GunaButton14.BorderColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(230, Byte), Integer))
+        Me.GunaButton14.BorderSize = 2
+        Me.GunaButton14.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.GunaButton14.FocusedColor = System.Drawing.Color.Empty
+        Me.GunaButton14.Font = New System.Drawing.Font("Poppins SemiBold", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GunaButton14.ForeColor = System.Drawing.Color.White
+        Me.GunaButton14.Image = Nothing
+        Me.GunaButton14.ImageSize = New System.Drawing.Size(20, 20)
+        Me.GunaButton14.Location = New System.Drawing.Point(53, 103)
+        Me.GunaButton14.Name = "GunaButton14"
+        Me.GunaButton14.OnHoverBaseColor = System.Drawing.Color.Transparent
+        Me.GunaButton14.OnHoverBorderColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(230, Byte), Integer))
+        Me.GunaButton14.OnHoverForeColor = System.Drawing.Color.White
+        Me.GunaButton14.OnHoverImage = Nothing
+        Me.GunaButton14.OnPressedColor = System.Drawing.Color.Black
+        Me.GunaButton14.Radius = 6
+        Me.GunaButton14.Size = New System.Drawing.Size(103, 42)
+        Me.GunaButton14.TabIndex = 30
+        Me.GunaButton14.Text = "Play"
+        Me.GunaButton14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        '
         'Label30
         '
         Me.Label30.AutoSize = True
@@ -499,6 +526,34 @@ Partial Class Dashboard
         Me.Label9.Size = New System.Drawing.Size(99, 28)
         Me.Label9.TabIndex = 16
         Me.Label9.Text = "IMK Task 4"
+        '
+        'GunaButton13
+        '
+        Me.GunaButton13.Animated = True
+        Me.GunaButton13.AnimationHoverSpeed = 0.07!
+        Me.GunaButton13.AnimationSpeed = 0.03!
+        Me.GunaButton13.BackColor = System.Drawing.Color.Transparent
+        Me.GunaButton13.BaseColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(230, Byte), Integer))
+        Me.GunaButton13.BorderColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(230, Byte), Integer))
+        Me.GunaButton13.BorderSize = 2
+        Me.GunaButton13.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.GunaButton13.FocusedColor = System.Drawing.Color.Empty
+        Me.GunaButton13.Font = New System.Drawing.Font("Poppins SemiBold", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GunaButton13.ForeColor = System.Drawing.Color.White
+        Me.GunaButton13.Image = Nothing
+        Me.GunaButton13.ImageSize = New System.Drawing.Size(20, 20)
+        Me.GunaButton13.Location = New System.Drawing.Point(53, 103)
+        Me.GunaButton13.Name = "GunaButton13"
+        Me.GunaButton13.OnHoverBaseColor = System.Drawing.Color.Transparent
+        Me.GunaButton13.OnHoverBorderColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(230, Byte), Integer))
+        Me.GunaButton13.OnHoverForeColor = System.Drawing.Color.White
+        Me.GunaButton13.OnHoverImage = Nothing
+        Me.GunaButton13.OnPressedColor = System.Drawing.Color.Black
+        Me.GunaButton13.Radius = 6
+        Me.GunaButton13.Size = New System.Drawing.Size(103, 42)
+        Me.GunaButton13.TabIndex = 29
+        Me.GunaButton13.Text = "Play"
+        Me.GunaButton13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'GunaElipse9
         '
@@ -616,6 +671,19 @@ Partial Class Dashboard
         Me.GunaPanel4.Size = New System.Drawing.Size(213, 256)
         Me.GunaPanel4.TabIndex = 17
         '
+        'Label33
+        '
+        Me.Label33.AutoSize = True
+        Me.Label33.BackColor = System.Drawing.Color.Transparent
+        Me.Label33.Font = New System.Drawing.Font("Poppins", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label33.ForeColor = System.Drawing.Color.White
+        Me.Label33.Location = New System.Drawing.Point(28, 194)
+        Me.Label33.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label33.Name = "Label33"
+        Me.Label33.Size = New System.Drawing.Size(165, 40)
+        Me.Label33.TabIndex = 31
+        Me.Label33.Text = "Weber's Law"
+        '
         'Label12
         '
         Me.Label12.AutoSize = True
@@ -628,6 +696,34 @@ Partial Class Dashboard
         Me.Label12.Size = New System.Drawing.Size(97, 28)
         Me.Label12.TabIndex = 16
         Me.Label12.Text = "IMK Task 2"
+        '
+        'GunaButton12
+        '
+        Me.GunaButton12.Animated = True
+        Me.GunaButton12.AnimationHoverSpeed = 0.07!
+        Me.GunaButton12.AnimationSpeed = 0.03!
+        Me.GunaButton12.BackColor = System.Drawing.Color.Transparent
+        Me.GunaButton12.BaseColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(230, Byte), Integer))
+        Me.GunaButton12.BorderColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(230, Byte), Integer))
+        Me.GunaButton12.BorderSize = 2
+        Me.GunaButton12.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.GunaButton12.FocusedColor = System.Drawing.Color.Empty
+        Me.GunaButton12.Font = New System.Drawing.Font("Poppins SemiBold", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GunaButton12.ForeColor = System.Drawing.Color.White
+        Me.GunaButton12.Image = Nothing
+        Me.GunaButton12.ImageSize = New System.Drawing.Size(20, 20)
+        Me.GunaButton12.Location = New System.Drawing.Point(53, 102)
+        Me.GunaButton12.Name = "GunaButton12"
+        Me.GunaButton12.OnHoverBaseColor = System.Drawing.Color.Transparent
+        Me.GunaButton12.OnHoverBorderColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(230, Byte), Integer))
+        Me.GunaButton12.OnHoverForeColor = System.Drawing.Color.White
+        Me.GunaButton12.OnHoverImage = Nothing
+        Me.GunaButton12.OnPressedColor = System.Drawing.Color.Black
+        Me.GunaButton12.Radius = 6
+        Me.GunaButton12.Size = New System.Drawing.Size(103, 42)
+        Me.GunaButton12.TabIndex = 28
+        Me.GunaButton12.Text = "Play"
+        Me.GunaButton12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'GunaElipse5
         '
@@ -660,6 +756,19 @@ Partial Class Dashboard
         Me.GunaPanel2.Size = New System.Drawing.Size(213, 256)
         Me.GunaPanel2.TabIndex = 15
         '
+        'Label34
+        '
+        Me.Label34.AutoSize = True
+        Me.Label34.BackColor = System.Drawing.Color.Transparent
+        Me.Label34.Font = New System.Drawing.Font("Poppins", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label34.ForeColor = System.Drawing.Color.White
+        Me.Label34.Location = New System.Drawing.Point(2, 194)
+        Me.Label34.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label34.Name = "Label34"
+        Me.Label34.Size = New System.Drawing.Size(210, 40)
+        Me.Label34.TabIndex = 32
+        Me.Label34.Text = "Sequence Game"
+        '
         'Label11
         '
         Me.Label11.AutoSize = True
@@ -672,6 +781,34 @@ Partial Class Dashboard
         Me.Label11.Size = New System.Drawing.Size(94, 28)
         Me.Label11.TabIndex = 16
         Me.Label11.Text = "IMK Task 1"
+        '
+        'GunaButton10
+        '
+        Me.GunaButton10.Animated = True
+        Me.GunaButton10.AnimationHoverSpeed = 0.07!
+        Me.GunaButton10.AnimationSpeed = 0.03!
+        Me.GunaButton10.BackColor = System.Drawing.Color.Transparent
+        Me.GunaButton10.BaseColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(230, Byte), Integer))
+        Me.GunaButton10.BorderColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(230, Byte), Integer))
+        Me.GunaButton10.BorderSize = 2
+        Me.GunaButton10.DialogResult = System.Windows.Forms.DialogResult.None
+        Me.GunaButton10.FocusedColor = System.Drawing.Color.Empty
+        Me.GunaButton10.Font = New System.Drawing.Font("Poppins SemiBold", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.GunaButton10.ForeColor = System.Drawing.Color.White
+        Me.GunaButton10.Image = Nothing
+        Me.GunaButton10.ImageSize = New System.Drawing.Size(20, 20)
+        Me.GunaButton10.Location = New System.Drawing.Point(53, 96)
+        Me.GunaButton10.Name = "GunaButton10"
+        Me.GunaButton10.OnHoverBaseColor = System.Drawing.Color.Transparent
+        Me.GunaButton10.OnHoverBorderColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(230, Byte), Integer))
+        Me.GunaButton10.OnHoverForeColor = System.Drawing.Color.White
+        Me.GunaButton10.OnHoverImage = Nothing
+        Me.GunaButton10.OnPressedColor = System.Drawing.Color.Black
+        Me.GunaButton10.Radius = 6
+        Me.GunaButton10.Size = New System.Drawing.Size(103, 42)
+        Me.GunaButton10.TabIndex = 27
+        Me.GunaButton10.Text = "Play"
+        Me.GunaButton10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
         'GunaElipse3
         '
@@ -878,7 +1015,7 @@ Partial Class Dashboard
         Me.GunaCirclePictureBox1.Location = New System.Drawing.Point(987, 31)
         Me.GunaCirclePictureBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.GunaCirclePictureBox1.Name = "GunaCirclePictureBox1"
-        Me.GunaCirclePictureBox1.Size = New System.Drawing.Size(47, 43)
+        Me.GunaCirclePictureBox1.Size = New System.Drawing.Size(47, 47)
         Me.GunaCirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.GunaCirclePictureBox1.TabIndex = 5
         Me.GunaCirclePictureBox1.TabStop = False
@@ -1082,11 +1219,6 @@ Partial Class Dashboard
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
-        '
-        'GunaElipse1
-        '
-        Me.GunaElipse1.Radius = 10
-        Me.GunaElipse1.TargetControl = Me
         '
         'panel_dashboard
         '
@@ -1348,52 +1480,6 @@ Partial Class Dashboard
         Me.Label31.Text = "Hick Law"
         Me.Label31.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
         '
-        'Label32
-        '
-        Me.Label32.AutoSize = True
-        Me.Label32.BackColor = System.Drawing.Color.Transparent
-        Me.Label32.Font = New System.Drawing.Font("Poppins", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label32.ForeColor = System.Drawing.Color.White
-        Me.Label32.Location = New System.Drawing.Point(4, 6)
-        Me.Label32.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label32.Name = "Label32"
-        Me.Label32.Size = New System.Drawing.Size(98, 28)
-        Me.Label32.TabIndex = 16
-        Me.Label32.Text = "IMK Task 5"
-        '
-        'GunaElipse2
-        '
-        Me.GunaElipse2.Radius = 10
-        Me.GunaElipse2.TargetControl = Me.GunaGradientPanel1
-        '
-        'GunaButton10
-        '
-        Me.GunaButton10.Animated = True
-        Me.GunaButton10.AnimationHoverSpeed = 0.07!
-        Me.GunaButton10.AnimationSpeed = 0.03!
-        Me.GunaButton10.BackColor = System.Drawing.Color.Transparent
-        Me.GunaButton10.BaseColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(230, Byte), Integer))
-        Me.GunaButton10.BorderColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(230, Byte), Integer))
-        Me.GunaButton10.BorderSize = 2
-        Me.GunaButton10.DialogResult = System.Windows.Forms.DialogResult.None
-        Me.GunaButton10.FocusedColor = System.Drawing.Color.Empty
-        Me.GunaButton10.Font = New System.Drawing.Font("Poppins SemiBold", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GunaButton10.ForeColor = System.Drawing.Color.White
-        Me.GunaButton10.Image = Nothing
-        Me.GunaButton10.ImageSize = New System.Drawing.Size(20, 20)
-        Me.GunaButton10.Location = New System.Drawing.Point(53, 96)
-        Me.GunaButton10.Name = "GunaButton10"
-        Me.GunaButton10.OnHoverBaseColor = System.Drawing.Color.Transparent
-        Me.GunaButton10.OnHoverBorderColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(230, Byte), Integer))
-        Me.GunaButton10.OnHoverForeColor = System.Drawing.Color.White
-        Me.GunaButton10.OnHoverImage = Nothing
-        Me.GunaButton10.OnPressedColor = System.Drawing.Color.Black
-        Me.GunaButton10.Radius = 6
-        Me.GunaButton10.Size = New System.Drawing.Size(103, 42)
-        Me.GunaButton10.TabIndex = 27
-        Me.GunaButton10.Text = "Play"
-        Me.GunaButton10.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
         'GunaButton11
         '
         Me.GunaButton11.Animated = True
@@ -1422,115 +1508,23 @@ Partial Class Dashboard
         Me.GunaButton11.Text = "Play"
         Me.GunaButton11.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
-        'GunaButton12
+        'Label32
         '
-        Me.GunaButton12.Animated = True
-        Me.GunaButton12.AnimationHoverSpeed = 0.07!
-        Me.GunaButton12.AnimationSpeed = 0.03!
-        Me.GunaButton12.BackColor = System.Drawing.Color.Transparent
-        Me.GunaButton12.BaseColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(230, Byte), Integer))
-        Me.GunaButton12.BorderColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(230, Byte), Integer))
-        Me.GunaButton12.BorderSize = 2
-        Me.GunaButton12.DialogResult = System.Windows.Forms.DialogResult.None
-        Me.GunaButton12.FocusedColor = System.Drawing.Color.Empty
-        Me.GunaButton12.Font = New System.Drawing.Font("Poppins SemiBold", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GunaButton12.ForeColor = System.Drawing.Color.White
-        Me.GunaButton12.Image = Nothing
-        Me.GunaButton12.ImageSize = New System.Drawing.Size(20, 20)
-        Me.GunaButton12.Location = New System.Drawing.Point(53, 102)
-        Me.GunaButton12.Name = "GunaButton12"
-        Me.GunaButton12.OnHoverBaseColor = System.Drawing.Color.Transparent
-        Me.GunaButton12.OnHoverBorderColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(230, Byte), Integer))
-        Me.GunaButton12.OnHoverForeColor = System.Drawing.Color.White
-        Me.GunaButton12.OnHoverImage = Nothing
-        Me.GunaButton12.OnPressedColor = System.Drawing.Color.Black
-        Me.GunaButton12.Radius = 6
-        Me.GunaButton12.Size = New System.Drawing.Size(103, 42)
-        Me.GunaButton12.TabIndex = 28
-        Me.GunaButton12.Text = "Play"
-        Me.GunaButton12.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.Label32.AutoSize = True
+        Me.Label32.BackColor = System.Drawing.Color.Transparent
+        Me.Label32.Font = New System.Drawing.Font("Poppins", 9.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label32.ForeColor = System.Drawing.Color.White
+        Me.Label32.Location = New System.Drawing.Point(4, 6)
+        Me.Label32.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label32.Name = "Label32"
+        Me.Label32.Size = New System.Drawing.Size(98, 28)
+        Me.Label32.TabIndex = 16
+        Me.Label32.Text = "IMK Task 5"
         '
-        'GunaButton13
+        'GunaElipse2
         '
-        Me.GunaButton13.Animated = True
-        Me.GunaButton13.AnimationHoverSpeed = 0.07!
-        Me.GunaButton13.AnimationSpeed = 0.03!
-        Me.GunaButton13.BackColor = System.Drawing.Color.Transparent
-        Me.GunaButton13.BaseColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(230, Byte), Integer))
-        Me.GunaButton13.BorderColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(230, Byte), Integer))
-        Me.GunaButton13.BorderSize = 2
-        Me.GunaButton13.DialogResult = System.Windows.Forms.DialogResult.None
-        Me.GunaButton13.FocusedColor = System.Drawing.Color.Empty
-        Me.GunaButton13.Font = New System.Drawing.Font("Poppins SemiBold", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GunaButton13.ForeColor = System.Drawing.Color.White
-        Me.GunaButton13.Image = Nothing
-        Me.GunaButton13.ImageSize = New System.Drawing.Size(20, 20)
-        Me.GunaButton13.Location = New System.Drawing.Point(53, 103)
-        Me.GunaButton13.Name = "GunaButton13"
-        Me.GunaButton13.OnHoverBaseColor = System.Drawing.Color.Transparent
-        Me.GunaButton13.OnHoverBorderColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(230, Byte), Integer))
-        Me.GunaButton13.OnHoverForeColor = System.Drawing.Color.White
-        Me.GunaButton13.OnHoverImage = Nothing
-        Me.GunaButton13.OnPressedColor = System.Drawing.Color.Black
-        Me.GunaButton13.Radius = 6
-        Me.GunaButton13.Size = New System.Drawing.Size(103, 42)
-        Me.GunaButton13.TabIndex = 29
-        Me.GunaButton13.Text = "Play"
-        Me.GunaButton13.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'GunaButton14
-        '
-        Me.GunaButton14.Animated = True
-        Me.GunaButton14.AnimationHoverSpeed = 0.07!
-        Me.GunaButton14.AnimationSpeed = 0.03!
-        Me.GunaButton14.BackColor = System.Drawing.Color.Transparent
-        Me.GunaButton14.BaseColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(230, Byte), Integer))
-        Me.GunaButton14.BorderColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(230, Byte), Integer))
-        Me.GunaButton14.BorderSize = 2
-        Me.GunaButton14.DialogResult = System.Windows.Forms.DialogResult.None
-        Me.GunaButton14.FocusedColor = System.Drawing.Color.Empty
-        Me.GunaButton14.Font = New System.Drawing.Font("Poppins SemiBold", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GunaButton14.ForeColor = System.Drawing.Color.White
-        Me.GunaButton14.Image = Nothing
-        Me.GunaButton14.ImageSize = New System.Drawing.Size(20, 20)
-        Me.GunaButton14.Location = New System.Drawing.Point(53, 103)
-        Me.GunaButton14.Name = "GunaButton14"
-        Me.GunaButton14.OnHoverBaseColor = System.Drawing.Color.Transparent
-        Me.GunaButton14.OnHoverBorderColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(230, Byte), Integer))
-        Me.GunaButton14.OnHoverForeColor = System.Drawing.Color.White
-        Me.GunaButton14.OnHoverImage = Nothing
-        Me.GunaButton14.OnPressedColor = System.Drawing.Color.Black
-        Me.GunaButton14.Radius = 6
-        Me.GunaButton14.Size = New System.Drawing.Size(103, 42)
-        Me.GunaButton14.TabIndex = 30
-        Me.GunaButton14.Text = "Play"
-        Me.GunaButton14.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
-        '
-        'Label33
-        '
-        Me.Label33.AutoSize = True
-        Me.Label33.BackColor = System.Drawing.Color.Transparent
-        Me.Label33.Font = New System.Drawing.Font("Poppins", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label33.ForeColor = System.Drawing.Color.White
-        Me.Label33.Location = New System.Drawing.Point(28, 194)
-        Me.Label33.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label33.Name = "Label33"
-        Me.Label33.Size = New System.Drawing.Size(165, 40)
-        Me.Label33.TabIndex = 31
-        Me.Label33.Text = "Weber's Law"
-        '
-        'Label34
-        '
-        Me.Label34.AutoSize = True
-        Me.Label34.BackColor = System.Drawing.Color.Transparent
-        Me.Label34.Font = New System.Drawing.Font("Poppins", 14.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label34.ForeColor = System.Drawing.Color.White
-        Me.Label34.Location = New System.Drawing.Point(2, 194)
-        Me.Label34.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label34.Name = "Label34"
-        Me.Label34.Size = New System.Drawing.Size(210, 40)
-        Me.Label34.TabIndex = 32
-        Me.Label34.Text = "Sequence Game"
+        Me.GunaElipse2.Radius = 10
+        Me.GunaElipse2.TargetControl = Me.GunaGradientPanel1
         '
         'Dashboard
         '
@@ -1657,7 +1651,6 @@ Partial Class Dashboard
     Friend WithEvents GunaButton2 As Guna.UI.WinForms.GunaButton
     Friend WithEvents panel_logo As System.Windows.Forms.Panel
     Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
-    Friend WithEvents GunaElipse1 As Guna.UI.WinForms.GunaElipse
     Friend WithEvents panel_dashboard As System.Windows.Forms.Panel
     Friend WithEvents GunaElipsePanel1 As Guna.UI.WinForms.GunaElipsePanel
     Friend WithEvents GunaTransfarantPictureBox2 As Guna.UI.WinForms.GunaTransfarantPictureBox

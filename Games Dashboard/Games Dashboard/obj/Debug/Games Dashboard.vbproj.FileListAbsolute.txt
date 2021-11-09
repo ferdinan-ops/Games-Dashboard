@@ -10,3 +10,6 @@ D:\Semua Projek VB.Net\Game Dashboard\Games Dashboard\Games Dashboard\bin\Debug\
 D:\Semua Projek VB.Net\Game Dashboard\Games Dashboard\Games Dashboard\obj\Debug\Games Dashboard.exe
 D:\Semua Projek VB.Net\Game Dashboard\Games Dashboard\Games Dashboard\obj\Debug\Games Dashboard.xml
 D:\Semua Projek VB.Net\Game Dashboard\Games Dashboard\Games Dashboard\obj\Debug\Games Dashboard.pdb
+D:\Semua Projek VB.Net\Game Dashboard\Games Dashboard\Games Dashboard\obj\Debug\Games_Dashboard.foto.resources
+D:\Semua Projek VB.Net\Game Dashboard\Games Dashboard\Games Dashboard\obj\Debug\Games_Dashboard.sign_in.resources
+D:\Semua Projek VB.Net\Game Dashboard\Games Dashboard\Games Dashboard\obj\Debug\Games_Dashboard.register.resources

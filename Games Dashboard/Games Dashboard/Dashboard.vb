@@ -118,10 +118,10 @@
     End Sub
 
     Private Sub GunaCirclePictureBox1_Click(sender As Object, e As EventArgs) Handles GunaCirclePictureBox1.Click
-        '    If PictureBox1.ImageLocation = "" Then
-        '        Me.Hide()
-        '        login_atau_sign_in.Show()
-        '    End If
+        If PictureBox1.ImageLocation = "" Then
+            Me.Hide()
+            sign_in.Show()
+        End If
     End Sub
 
     Private Sub GunaPanel1_MouseHover(sender As Object, e As EventArgs) Handles GunaPanel1.MouseHover, Label11.MouseHover
