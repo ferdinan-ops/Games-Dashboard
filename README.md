@@ -10,7 +10,7 @@ I've designed the output to look the best I can and I'm going to develop it. So 
   <li><b>CI/CD:</b> Github</li>
 </ol>
 
-<h2>How To Use</h2>
+# How To Use
 You can do the following steps:
 1. Download Visual Studio 2010/2012/2019
 2. Download this repository
