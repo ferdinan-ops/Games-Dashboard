@@ -10,12 +10,14 @@ I've designed the output to look the best I can and I'm going to develop it. So 
   <li><b>CI/CD:</b> Github</li>
 </ol>
 
-# How To Use
-You can do the following steps:
-1. Download Visual Studio 2010/2012/2019
-2. Download this repository
-3. Add the framework GUNA UI that is in the repository to the visual studio software
-4. Open the Game Dashboard folder - scroll down and find the Game Dashboard with the project file extension-open the project file and boom you can use this game dashboard.
+<h2>How I Used</h2>
+<p>You can do the following steps:</p>
+<ol>
+  <li>Download Visual Studio 2010/2012/2019</li>
+  <li>Download this repository</li>
+  <li>Add the framework GUNA UI that is in the repository to the visual studio software</li>
+  <li>Open the Game Dashboard folder - scroll down and find the Game Dashboard with the project file extension-open the project file and boom you can use this game dashboard.</li>
+</ol>
 
 # Dashboard Page
 ![demo1](https://user-images.githubusercontent.com/84588706/140006061-86893110-dcf2-49f8-ab10-0d8603980cec.png)
