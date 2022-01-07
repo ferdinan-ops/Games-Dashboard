@@ -29,7 +29,7 @@ Partial Class Dashboard
         Me.Label4 = New System.Windows.Forms.Label()
         Me.lbl_password = New System.Windows.Forms.Label()
         Me.panel_account = New System.Windows.Forms.Panel()
-        Me.GunaCirclePictureBox2 = New Guna.UI.WinForms.GunaCirclePictureBox()
+        Me.photo_akun = New Guna.UI.WinForms.GunaCirclePictureBox()
         Me.lbl_username = New System.Windows.Forms.Label()
         Me.panel_info = New System.Windows.Forms.Panel()
         Me.Label25 = New System.Windows.Forms.Label()
@@ -89,7 +89,7 @@ Partial Class Dashboard
         Me.panel_atas = New System.Windows.Forms.Panel()
         Me.lbl_jam = New System.Windows.Forms.Label()
         Me.lbl_tgl = New System.Windows.Forms.Label()
-        Me.GunaCirclePictureBox1 = New Guna.UI.WinForms.GunaCirclePictureBox()
+        Me.User_foto = New Guna.UI.WinForms.GunaCirclePictureBox()
         Me.lbl_nama = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.panel_logo = New System.Windows.Forms.Panel()
@@ -119,7 +119,7 @@ Partial Class Dashboard
         Me.Label32 = New System.Windows.Forms.Label()
         Me.GunaElipse2 = New Guna.UI.WinForms.GunaElipse(Me.components)
         Me.panel_account.SuspendLayout()
-        CType(Me.GunaCirclePictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.photo_akun, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.panel_info.SuspendLayout()
         Me.GunaPanel10.SuspendLayout()
         Me.GunaPanel8.SuspendLayout()
@@ -131,7 +131,7 @@ Partial Class Dashboard
         Me.GunaElipsePanel3.SuspendLayout()
         CType(Me.GunaTransfarantPictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.panel_atas.SuspendLayout()
-        CType(Me.GunaCirclePictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.User_foto, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.panel_logo.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.panel_dashboard.SuspendLayout()
@@ -186,7 +186,7 @@ Partial Class Dashboard
         'panel_account
         '
         Me.panel_account.Controls.Add(Me.Label4)
-        Me.panel_account.Controls.Add(Me.GunaCirclePictureBox2)
+        Me.panel_account.Controls.Add(Me.photo_akun)
         Me.panel_account.Controls.Add(Me.lbl_password)
         Me.panel_account.Controls.Add(Me.lbl_username)
         Me.panel_account.Dock = System.Windows.Forms.DockStyle.Fill
@@ -196,18 +196,18 @@ Partial Class Dashboard
         Me.panel_account.Size = New System.Drawing.Size(1067, 640)
         Me.panel_account.TabIndex = 18
         '
-        'GunaCirclePictureBox2
+        'photo_akun
         '
-        Me.GunaCirclePictureBox2.BaseColor = System.Drawing.Color.White
-        Me.GunaCirclePictureBox2.Image = CType(resources.GetObject("GunaCirclePictureBox2.Image"), System.Drawing.Image)
-        Me.GunaCirclePictureBox2.Location = New System.Drawing.Point(395, 90)
-        Me.GunaCirclePictureBox2.Margin = New System.Windows.Forms.Padding(4)
-        Me.GunaCirclePictureBox2.Name = "GunaCirclePictureBox2"
-        Me.GunaCirclePictureBox2.Size = New System.Drawing.Size(250, 250)
-        Me.GunaCirclePictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.GunaCirclePictureBox2.TabIndex = 13
-        Me.GunaCirclePictureBox2.TabStop = False
-        Me.GunaCirclePictureBox2.UseTransfarantBackground = False
+        Me.photo_akun.BaseColor = System.Drawing.Color.White
+        Me.photo_akun.Image = CType(resources.GetObject("photo_akun.Image"), System.Drawing.Image)
+        Me.photo_akun.Location = New System.Drawing.Point(395, 90)
+        Me.photo_akun.Margin = New System.Windows.Forms.Padding(4)
+        Me.photo_akun.Name = "photo_akun"
+        Me.photo_akun.Size = New System.Drawing.Size(250, 250)
+        Me.photo_akun.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.photo_akun.TabIndex = 13
+        Me.photo_akun.TabStop = False
+        Me.photo_akun.UseTransfarantBackground = False
         '
         'lbl_username
         '
@@ -452,6 +452,7 @@ Partial Class Dashboard
         Me.GunaButton14.BaseColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(230, Byte), Integer))
         Me.GunaButton14.BorderColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(230, Byte), Integer))
         Me.GunaButton14.BorderSize = 2
+        Me.GunaButton14.Cursor = System.Windows.Forms.Cursors.Hand
         Me.GunaButton14.DialogResult = System.Windows.Forms.DialogResult.None
         Me.GunaButton14.FocusedColor = System.Drawing.Color.Empty
         Me.GunaButton14.Font = New System.Drawing.Font("Poppins SemiBold", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -536,6 +537,7 @@ Partial Class Dashboard
         Me.GunaButton13.BaseColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(230, Byte), Integer))
         Me.GunaButton13.BorderColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(230, Byte), Integer))
         Me.GunaButton13.BorderSize = 2
+        Me.GunaButton13.Cursor = System.Windows.Forms.Cursors.Hand
         Me.GunaButton13.DialogResult = System.Windows.Forms.DialogResult.None
         Me.GunaButton13.FocusedColor = System.Drawing.Color.Empty
         Me.GunaButton13.Font = New System.Drawing.Font("Poppins SemiBold", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -595,6 +597,7 @@ Partial Class Dashboard
         Me.GunaButton9.BaseColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(230, Byte), Integer))
         Me.GunaButton9.BorderColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(230, Byte), Integer))
         Me.GunaButton9.BorderSize = 2
+        Me.GunaButton9.Cursor = System.Windows.Forms.Cursors.Hand
         Me.GunaButton9.DialogResult = System.Windows.Forms.DialogResult.None
         Me.GunaButton9.FocusedColor = System.Drawing.Color.Empty
         Me.GunaButton9.Font = New System.Drawing.Font("Poppins SemiBold", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -706,6 +709,7 @@ Partial Class Dashboard
         Me.GunaButton12.BaseColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(230, Byte), Integer))
         Me.GunaButton12.BorderColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(230, Byte), Integer))
         Me.GunaButton12.BorderSize = 2
+        Me.GunaButton12.Cursor = System.Windows.Forms.Cursors.Hand
         Me.GunaButton12.DialogResult = System.Windows.Forms.DialogResult.None
         Me.GunaButton12.FocusedColor = System.Drawing.Color.Empty
         Me.GunaButton12.Font = New System.Drawing.Font("Poppins SemiBold", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -791,6 +795,7 @@ Partial Class Dashboard
         Me.GunaButton10.BaseColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(230, Byte), Integer))
         Me.GunaButton10.BorderColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(230, Byte), Integer))
         Me.GunaButton10.BorderSize = 2
+        Me.GunaButton10.Cursor = System.Windows.Forms.Cursors.Hand
         Me.GunaButton10.DialogResult = System.Windows.Forms.DialogResult.None
         Me.GunaButton10.FocusedColor = System.Drawing.Color.Empty
         Me.GunaButton10.Font = New System.Drawing.Font("Poppins SemiBold", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -972,7 +977,7 @@ Partial Class Dashboard
         '
         Me.panel_atas.Controls.Add(Me.lbl_jam)
         Me.panel_atas.Controls.Add(Me.lbl_tgl)
-        Me.panel_atas.Controls.Add(Me.GunaCirclePictureBox1)
+        Me.panel_atas.Controls.Add(Me.User_foto)
         Me.panel_atas.Controls.Add(Me.lbl_nama)
         Me.panel_atas.Dock = System.Windows.Forms.DockStyle.Top
         Me.panel_atas.Location = New System.Drawing.Point(266, 0)
@@ -1007,19 +1012,19 @@ Partial Class Dashboard
         Me.lbl_tgl.TabIndex = 6
         Me.lbl_tgl.Text = "FITGames."
         '
-        'GunaCirclePictureBox1
+        'User_foto
         '
-        Me.GunaCirclePictureBox1.BaseColor = System.Drawing.Color.White
-        Me.GunaCirclePictureBox1.Cursor = System.Windows.Forms.Cursors.Hand
-        Me.GunaCirclePictureBox1.Image = CType(resources.GetObject("GunaCirclePictureBox1.Image"), System.Drawing.Image)
-        Me.GunaCirclePictureBox1.Location = New System.Drawing.Point(987, 31)
-        Me.GunaCirclePictureBox1.Margin = New System.Windows.Forms.Padding(4)
-        Me.GunaCirclePictureBox1.Name = "GunaCirclePictureBox1"
-        Me.GunaCirclePictureBox1.Size = New System.Drawing.Size(47, 47)
-        Me.GunaCirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.GunaCirclePictureBox1.TabIndex = 5
-        Me.GunaCirclePictureBox1.TabStop = False
-        Me.GunaCirclePictureBox1.UseTransfarantBackground = False
+        Me.User_foto.BaseColor = System.Drawing.Color.White
+        Me.User_foto.Cursor = System.Windows.Forms.Cursors.Hand
+        Me.User_foto.Image = CType(resources.GetObject("User_foto.Image"), System.Drawing.Image)
+        Me.User_foto.Location = New System.Drawing.Point(987, 31)
+        Me.User_foto.Margin = New System.Windows.Forms.Padding(4)
+        Me.User_foto.Name = "User_foto"
+        Me.User_foto.Size = New System.Drawing.Size(47, 47)
+        Me.User_foto.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.User_foto.TabIndex = 5
+        Me.User_foto.TabStop = False
+        Me.User_foto.UseTransfarantBackground = False
         '
         'lbl_nama
         '
@@ -1049,7 +1054,7 @@ Partial Class Dashboard
         '
         'panel_logo
         '
-        Me.panel_logo.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
+        Me.panel_logo.BackColor = System.Drawing.Color.Black
         Me.panel_logo.Controls.Add(Me.btn_exit)
         Me.panel_logo.Controls.Add(Me.GunaButton4)
         Me.panel_logo.Controls.Add(Me.GunaButton3)
@@ -1070,7 +1075,7 @@ Partial Class Dashboard
         Me.btn_exit.AnimationHoverSpeed = 0.07!
         Me.btn_exit.AnimationSpeed = 0.03!
         Me.btn_exit.BackColor = System.Drawing.Color.Transparent
-        Me.btn_exit.BaseColor = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(27, Byte), Integer), CType(CType(31, Byte), Integer))
+        Me.btn_exit.BaseColor = System.Drawing.Color.Black
         Me.btn_exit.BorderColor = System.Drawing.Color.Black
         Me.btn_exit.Cursor = System.Windows.Forms.Cursors.Hand
         Me.btn_exit.DialogResult = System.Windows.Forms.DialogResult.None
@@ -1078,7 +1083,7 @@ Partial Class Dashboard
         Me.btn_exit.Font = New System.Drawing.Font("Poppins", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btn_exit.ForeColor = System.Drawing.Color.White
         Me.btn_exit.Image = CType(resources.GetObject("btn_exit.Image"), System.Drawing.Image)
-        Me.btn_exit.ImageSize = New System.Drawing.Size(20, 20)
+        Me.btn_exit.ImageSize = New System.Drawing.Size(23, 23)
         Me.btn_exit.Location = New System.Drawing.Point(28, 645)
         Me.btn_exit.Margin = New System.Windows.Forms.Padding(4)
         Me.btn_exit.Name = "btn_exit"
@@ -1099,7 +1104,7 @@ Partial Class Dashboard
         Me.GunaButton4.AnimationHoverSpeed = 0.07!
         Me.GunaButton4.AnimationSpeed = 0.03!
         Me.GunaButton4.BackColor = System.Drawing.Color.Transparent
-        Me.GunaButton4.BaseColor = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(27, Byte), Integer), CType(CType(31, Byte), Integer))
+        Me.GunaButton4.BaseColor = System.Drawing.Color.Black
         Me.GunaButton4.BorderColor = System.Drawing.Color.Black
         Me.GunaButton4.Cursor = System.Windows.Forms.Cursors.Hand
         Me.GunaButton4.DialogResult = System.Windows.Forms.DialogResult.None
@@ -1107,7 +1112,7 @@ Partial Class Dashboard
         Me.GunaButton4.Font = New System.Drawing.Font("Poppins", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GunaButton4.ForeColor = System.Drawing.Color.White
         Me.GunaButton4.Image = CType(resources.GetObject("GunaButton4.Image"), System.Drawing.Image)
-        Me.GunaButton4.ImageSize = New System.Drawing.Size(20, 20)
+        Me.GunaButton4.ImageSize = New System.Drawing.Size(23, 23)
         Me.GunaButton4.Location = New System.Drawing.Point(28, 473)
         Me.GunaButton4.Margin = New System.Windows.Forms.Padding(4)
         Me.GunaButton4.Name = "GunaButton4"
@@ -1128,7 +1133,7 @@ Partial Class Dashboard
         Me.GunaButton3.AnimationHoverSpeed = 0.07!
         Me.GunaButton3.AnimationSpeed = 0.03!
         Me.GunaButton3.BackColor = System.Drawing.Color.Transparent
-        Me.GunaButton3.BaseColor = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(27, Byte), Integer), CType(CType(31, Byte), Integer))
+        Me.GunaButton3.BaseColor = System.Drawing.Color.Black
         Me.GunaButton3.BorderColor = System.Drawing.Color.Black
         Me.GunaButton3.Cursor = System.Windows.Forms.Cursors.Hand
         Me.GunaButton3.DialogResult = System.Windows.Forms.DialogResult.None
@@ -1136,7 +1141,7 @@ Partial Class Dashboard
         Me.GunaButton3.Font = New System.Drawing.Font("Poppins", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GunaButton3.ForeColor = System.Drawing.Color.White
         Me.GunaButton3.Image = CType(resources.GetObject("GunaButton3.Image"), System.Drawing.Image)
-        Me.GunaButton3.ImageSize = New System.Drawing.Size(20, 20)
+        Me.GunaButton3.ImageSize = New System.Drawing.Size(24, 24)
         Me.GunaButton3.Location = New System.Drawing.Point(28, 385)
         Me.GunaButton3.Margin = New System.Windows.Forms.Padding(4)
         Me.GunaButton3.Name = "GunaButton3"
@@ -1157,7 +1162,7 @@ Partial Class Dashboard
         Me.GunaButton2.AnimationHoverSpeed = 0.07!
         Me.GunaButton2.AnimationSpeed = 0.03!
         Me.GunaButton2.BackColor = System.Drawing.Color.Transparent
-        Me.GunaButton2.BaseColor = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(27, Byte), Integer), CType(CType(31, Byte), Integer))
+        Me.GunaButton2.BaseColor = System.Drawing.Color.Black
         Me.GunaButton2.BorderColor = System.Drawing.Color.Black
         Me.GunaButton2.Cursor = System.Windows.Forms.Cursors.Hand
         Me.GunaButton2.DialogResult = System.Windows.Forms.DialogResult.None
@@ -1165,7 +1170,7 @@ Partial Class Dashboard
         Me.GunaButton2.Font = New System.Drawing.Font("Poppins", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GunaButton2.ForeColor = System.Drawing.Color.White
         Me.GunaButton2.Image = CType(resources.GetObject("GunaButton2.Image"), System.Drawing.Image)
-        Me.GunaButton2.ImageSize = New System.Drawing.Size(20, 20)
+        Me.GunaButton2.ImageSize = New System.Drawing.Size(24, 24)
         Me.GunaButton2.Location = New System.Drawing.Point(28, 298)
         Me.GunaButton2.Margin = New System.Windows.Forms.Padding(4)
         Me.GunaButton2.Name = "GunaButton2"
@@ -1186,14 +1191,14 @@ Partial Class Dashboard
         Me.GunaButton1.AnimationHoverSpeed = 0.07!
         Me.GunaButton1.AnimationSpeed = 0.03!
         Me.GunaButton1.BackColor = System.Drawing.Color.Transparent
-        Me.GunaButton1.BaseColor = System.Drawing.Color.FromArgb(CType(CType(25, Byte), Integer), CType(CType(27, Byte), Integer), CType(CType(31, Byte), Integer))
+        Me.GunaButton1.BaseColor = System.Drawing.Color.Black
         Me.GunaButton1.BorderColor = System.Drawing.Color.Black
         Me.GunaButton1.Cursor = System.Windows.Forms.Cursors.Hand
         Me.GunaButton1.DialogResult = System.Windows.Forms.DialogResult.None
         Me.GunaButton1.FocusedColor = System.Drawing.Color.Empty
         Me.GunaButton1.Font = New System.Drawing.Font("Poppins", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GunaButton1.ForeColor = System.Drawing.Color.White
-        Me.GunaButton1.Image = Global.Games_Dashboard.My.Resources.Resources.menu__3_
+        Me.GunaButton1.Image = CType(resources.GetObject("GunaButton1.Image"), System.Drawing.Image)
         Me.GunaButton1.ImageSize = New System.Drawing.Size(20, 20)
         Me.GunaButton1.Location = New System.Drawing.Point(28, 210)
         Me.GunaButton1.Margin = New System.Windows.Forms.Padding(4)
@@ -1201,7 +1206,7 @@ Partial Class Dashboard
         Me.GunaButton1.OnHoverBaseColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(230, Byte), Integer))
         Me.GunaButton1.OnHoverBorderColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(230, Byte), Integer))
         Me.GunaButton1.OnHoverForeColor = System.Drawing.Color.White
-        Me.GunaButton1.OnHoverImage = Nothing
+        Me.GunaButton1.OnHoverImage = CType(resources.GetObject("GunaButton1.OnHoverImage"), System.Drawing.Image)
         Me.GunaButton1.OnPressedColor = System.Drawing.Color.Black
         Me.GunaButton1.Radius = 6
         Me.GunaButton1.Size = New System.Drawing.Size(213, 52)
@@ -1489,6 +1494,7 @@ Partial Class Dashboard
         Me.GunaButton11.BaseColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(230, Byte), Integer))
         Me.GunaButton11.BorderColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(230, Byte), Integer))
         Me.GunaButton11.BorderSize = 2
+        Me.GunaButton11.Cursor = System.Windows.Forms.Cursors.Hand
         Me.GunaButton11.DialogResult = System.Windows.Forms.DialogResult.None
         Me.GunaButton11.FocusedColor = System.Drawing.Color.Empty
         Me.GunaButton11.Font = New System.Drawing.Font("Poppins SemiBold", 10.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -1544,7 +1550,7 @@ Partial Class Dashboard
         Me.Text = "Form1"
         Me.panel_account.ResumeLayout(False)
         Me.panel_account.PerformLayout()
-        CType(Me.GunaCirclePictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.photo_akun, System.ComponentModel.ISupportInitialize).EndInit()
         Me.panel_info.ResumeLayout(False)
         Me.panel_info.PerformLayout()
         Me.GunaPanel10.ResumeLayout(False)
@@ -1563,7 +1569,7 @@ Partial Class Dashboard
         CType(Me.GunaTransfarantPictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         Me.panel_atas.ResumeLayout(False)
         Me.panel_atas.PerformLayout()
-        CType(Me.GunaCirclePictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.User_foto, System.ComponentModel.ISupportInitialize).EndInit()
         Me.panel_logo.ResumeLayout(False)
         Me.panel_logo.PerformLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
@@ -1584,7 +1590,7 @@ Partial Class Dashboard
     Friend WithEvents GunaElipse11 As Guna.UI.WinForms.GunaElipse
     Friend WithEvents GunaPanel9 As Guna.UI.WinForms.GunaPanel
     Friend WithEvents Label4 As System.Windows.Forms.Label
-    Friend WithEvents GunaCirclePictureBox2 As Guna.UI.WinForms.GunaCirclePictureBox
+    Friend WithEvents photo_akun As Guna.UI.WinForms.GunaCirclePictureBox
     Friend WithEvents lbl_password As System.Windows.Forms.Label
     Friend WithEvents panel_account As System.Windows.Forms.Panel
     Friend WithEvents lbl_username As System.Windows.Forms.Label
@@ -1641,7 +1647,7 @@ Partial Class Dashboard
     Friend WithEvents panel_atas As System.Windows.Forms.Panel
     Friend WithEvents lbl_jam As System.Windows.Forms.Label
     Friend WithEvents lbl_tgl As System.Windows.Forms.Label
-    Friend WithEvents GunaCirclePictureBox1 As Guna.UI.WinForms.GunaCirclePictureBox
+    Friend WithEvents User_foto As Guna.UI.WinForms.GunaCirclePictureBox
     Friend WithEvents lbl_nama As System.Windows.Forms.Label
     Friend WithEvents GunaButton1 As Guna.UI.WinForms.GunaButton
     Friend WithEvents Label1 As System.Windows.Forms.Label

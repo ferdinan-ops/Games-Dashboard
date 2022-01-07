@@ -1,10 +1,12 @@
 ﻿Public Class Dashboard
 
     Private Sub btn_exit_Click(sender As Object, e As EventArgs) Handles btn_exit.Click
+        btn_exit.Image = Games_Dashboard.My.Resources.Resources.Exit_icon_1
+        btn_exit.BaseColor = Color.Black
         Dim tanya
         tanya = MessageBox.Show("Anda Yakin Ingin Keluar ??", "Keluar", MessageBoxButtons.YesNo, MessageBoxIcon.Question)
         If tanya = vbYes Then
-            End
+            Me.Hide()
         End If
     End Sub
 
@@ -13,20 +15,23 @@
         lbl_jam.Text = Format(Now, "hh:mm tt")
 
         GunaButton1.BaseColor = Color.FromArgb(16, 128, 230)
-        GunaButton1.Image = Games_Dashboard.My.Resources.Resources.dashboard
+        GunaButton1.Image = Games_Dashboard.My.Resources.Resources.Dashboard_icon_2
 
-        GunaButton2.BaseColor = Color.FromArgb(25, 27, 31)
-        GunaButton2.Image = Games_Dashboard.My.Resources.Resources.console__1_
-        GunaButton3.BaseColor = Color.FromArgb(25, 27, 31)
-        GunaButton3.Image = Games_Dashboard.My.Resources.Resources.user
-        GunaButton4.BaseColor = Color.FromArgb(25, 27, 31)
-        GunaButton4.Image = Games_Dashboard.My.Resources.Resources.information__1_
+        GunaButton2.BaseColor = Color.Black
+        GunaButton2.Image = Games_Dashboard.My.Resources.Resources.All_Games_icon_2
+        GunaButton3.BaseColor = Color.Black
+        GunaButton3.Image = Games_Dashboard.My.Resources.Resources.Account_icon_1
+        GunaButton4.BaseColor = Color.Black
+        GunaButton4.Image = Games_Dashboard.My.Resources.Resources.Information_icon_1
+        btn_exit.Image = Games_Dashboard.My.Resources.Resources.Exit_icon_1
+        btn_exit.BaseColor = Color.Black
 
         panel_dashboard.Visible = True
         Panel_allgames.Visible = False
         panel_account.Visible = False
         panel_info.Visible = False
 
+        Guna.UI.Lib.GraphicsHelper.ShadowForm(Me)
 
     End Sub
 
@@ -36,20 +41,18 @@
         'End If
     End Sub
 
-    Private Sub GunaButton11_Click(sender As Object, e As EventArgs)
-
-    End Sub
-
     Private Sub GunaButton1_Click(sender As Object, e As EventArgs) Handles GunaButton1.Click
         GunaButton1.BaseColor = Color.FromArgb(16, 128, 230)
-        GunaButton1.Image = Games_Dashboard.My.Resources.Resources.dashboard
+        GunaButton1.Image = Games_Dashboard.My.Resources.Resources.Dashboard_icon_2
 
-        GunaButton2.BaseColor = Color.FromArgb(25, 27, 31)
-        GunaButton2.Image = Games_Dashboard.My.Resources.Resources.console__1_
-        GunaButton3.BaseColor = Color.FromArgb(25, 27, 31)
-        GunaButton3.Image = Games_Dashboard.My.Resources.Resources.user
-        GunaButton4.BaseColor = Color.FromArgb(25, 27, 31)
-        GunaButton4.Image = Games_Dashboard.My.Resources.Resources.information__1_
+        GunaButton2.BaseColor = Color.Black
+        GunaButton2.Image = Games_Dashboard.My.Resources.Resources.All_Games_icon_2
+        GunaButton3.BaseColor = Color.Black
+        GunaButton3.Image = Games_Dashboard.My.Resources.Resources.Account_icon_1
+        GunaButton4.BaseColor = Color.Black
+        GunaButton4.Image = Games_Dashboard.My.Resources.Resources.Information_icon_1
+        btn_exit.Image = Games_Dashboard.My.Resources.Resources.Exit_icon_1
+        btn_exit.BaseColor = Color.Black
 
         panel_dashboard.Visible = True
         Panel_allgames.Visible = False
@@ -59,14 +62,16 @@
 
     Private Sub GunaButton2_Click(sender As Object, e As EventArgs) Handles GunaButton2.Click
         GunaButton2.BaseColor = Color.FromArgb(16, 128, 230)
-        GunaButton2.Image = Games_Dashboard.My.Resources.Resources.games
+        GunaButton2.Image = Games_Dashboard.My.Resources.Resources.All_Games_icon_1
 
-        GunaButton1.BaseColor = Color.FromArgb(25, 27, 31)
-        GunaButton1.Image = Games_Dashboard.My.Resources.Resources.menu__3_
-        GunaButton3.BaseColor = Color.FromArgb(25, 27, 31)
-        GunaButton3.Image = Games_Dashboard.My.Resources.Resources.user
-        GunaButton4.BaseColor = Color.FromArgb(25, 27, 31)
-        GunaButton4.Image = Games_Dashboard.My.Resources.Resources.information__1_
+        GunaButton1.BaseColor = Color.Black
+        GunaButton1.Image = Games_Dashboard.My.Resources.Resources.Dashboard_icon_1
+        GunaButton3.BaseColor = Color.Black
+        GunaButton3.Image = Games_Dashboard.My.Resources.Resources.Account_icon_1
+        GunaButton4.BaseColor = Color.Black
+        GunaButton4.Image = Games_Dashboard.My.Resources.Resources.Information_icon_1
+        btn_exit.Image = Games_Dashboard.My.Resources.Resources.Exit_icon_1
+        btn_exit.BaseColor = Color.Black
 
         panel_dashboard.Visible = False
         Panel_allgames.Visible = True
@@ -83,14 +88,16 @@
 
     Private Sub GunaButton3_Click(sender As Object, e As EventArgs) Handles GunaButton3.Click
         GunaButton3.BaseColor = Color.FromArgb(16, 128, 230)
-        GunaButton3.Image = Games_Dashboard.My.Resources.Resources.user__1_
+        GunaButton3.Image = Games_Dashboard.My.Resources.Resources.Account_icon_2
 
-        GunaButton1.BaseColor = Color.FromArgb(25, 27, 31)
-        GunaButton1.Image = Games_Dashboard.My.Resources.Resources.menu__3_
-        GunaButton2.BaseColor = Color.FromArgb(25, 27, 31)
-        GunaButton2.Image = Games_Dashboard.My.Resources.Resources.console__1_
-        GunaButton4.BaseColor = Color.FromArgb(25, 27, 31)
-        GunaButton4.Image = Games_Dashboard.My.Resources.Resources.information__1_
+        GunaButton1.BaseColor = Color.Black
+        GunaButton1.Image = Games_Dashboard.My.Resources.Resources.Dashboard_icon_1
+        GunaButton2.BaseColor = Color.Black
+        GunaButton2.Image = Games_Dashboard.My.Resources.Resources.All_Games_icon_2
+        GunaButton4.BaseColor = Color.Black
+        GunaButton4.Image = Games_Dashboard.My.Resources.Resources.Information_icon_1
+        btn_exit.Image = Games_Dashboard.My.Resources.Resources.Exit_icon_1
+        btn_exit.BaseColor = Color.Black
 
         panel_dashboard.Visible = False
         Panel_allgames.Visible = False
@@ -100,14 +107,16 @@
 
     Private Sub GunaButton4_Click(sender As Object, e As EventArgs) Handles GunaButton4.Click
         GunaButton4.BaseColor = Color.FromArgb(16, 128, 230)
-        GunaButton4.Image = Games_Dashboard.My.Resources.Resources.info_button
+        GunaButton4.Image = Games_Dashboard.My.Resources.Resources.Information_icon_2
 
-        GunaButton1.BaseColor = Color.FromArgb(25, 27, 31)
-        GunaButton1.Image = Games_Dashboard.My.Resources.Resources.menu__3_
-        GunaButton2.BaseColor = Color.FromArgb(25, 27, 31)
-        GunaButton2.Image = Games_Dashboard.My.Resources.Resources.console__1_
-        GunaButton3.BaseColor = Color.FromArgb(25, 27, 31)
-        GunaButton3.Image = Games_Dashboard.My.Resources.Resources.user
+        GunaButton1.BaseColor = Color.Black
+        GunaButton1.Image = Games_Dashboard.My.Resources.Resources.Dashboard_icon_1
+        GunaButton2.BaseColor = Color.Black
+        GunaButton2.Image = Games_Dashboard.My.Resources.Resources.All_Games_icon_2
+        GunaButton3.BaseColor = Color.Black
+        GunaButton3.Image = Games_Dashboard.My.Resources.Resources.Account_icon_1
+        btn_exit.BaseColor = Color.Black
+        btn_exit.Image = Games_Dashboard.My.Resources.Resources.Exit_icon_1
 
         panel_dashboard.Visible = False
         Panel_allgames.Visible = False
@@ -117,7 +126,7 @@
         GunaPanel2.Visible = False
     End Sub
 
-    Private Sub GunaCirclePictureBox1_Click(sender As Object, e As EventArgs) Handles GunaCirclePictureBox1.Click
+    Private Sub GunaCirclePictureBox1_Click(sender As Object, e As EventArgs) Handles User_foto.Click
         If PictureBox1.ImageLocation = "" Then
             Me.Hide()
             sign_in.Show()

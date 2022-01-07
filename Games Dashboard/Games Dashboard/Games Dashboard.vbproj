@@ -64,6 +64,7 @@
     <Reference Include="Guna.UI">
       <HintPath>..\..\..\..\file transfer\Guna_UI_Framework_Ultimate_v2.0.0.1\Guna_UI_Framework_Ultimate_v2.0.0.1\Guna_UI_Framework_Ultimate_v2.0.0.1\Guna.UI-Framework-Lib-master\Guna.UI WinForms\.net 4.0\Guna.UI.dll</HintPath>
     </Reference>
+    <Reference Include="MySql.Data, Version=6.9.8.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
@@ -96,12 +97,6 @@
       <DependentUpon>Dashboard.vb</DependentUpon>
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="foto.Designer.vb">
-      <DependentUpon>foto.vb</DependentUpon>
-    </Compile>
-    <Compile Include="foto.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Module1.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
@@ -118,16 +113,16 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <Compile Include="Sign in.Designer.vb">
-      <DependentUpon>Sign in.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Sign in.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Register.Designer.vb">
+    <Compile Include="Register.designer.vb">
       <DependentUpon>Register.vb</DependentUpon>
     </Compile>
     <Compile Include="Register.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sign in.designer.vb">
+      <DependentUpon>Sign in.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sign in.vb">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>
@@ -135,20 +130,17 @@
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="foto.resx">
-      <DependentUpon>foto.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <EmbeddedResource Include="Sign in.resx">
-      <DependentUpon>Sign in.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Register.resx">
       <DependentUpon>Register.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sign in.resx">
+      <DependentUpon>Sign in.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -162,33 +154,6 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\dashboard.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\menu %283%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\dashboard1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\console %281%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\games.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\user %281%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\user.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\information %281%29.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\info-button.png" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.5">
@@ -206,6 +171,37 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\Account icon 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Account icon 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\All Games icon 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\All Games icon 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dashboard icon 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Dashboard icon 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Exit icon 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Exit icon 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Information icon 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Information icon 2.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

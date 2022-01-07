@@ -22,16 +22,11 @@ Partial Class register
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Me.components = New System.ComponentModel.Container()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Register))
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.GunaTextBox3 = New Guna.UI.WinForms.GunaTextBox()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(register))
         Me.GunaButton1 = New Guna.UI.WinForms.GunaButton()
         Me.GunaTextBox2 = New Guna.UI.WinForms.GunaTextBox()
         Me.GunaTextBox1 = New Guna.UI.WinForms.GunaTextBox()
-        Me.BukaFile = New System.Windows.Forms.OpenFileDialog()
-        Me.GunaElipse1 = New Guna.UI.WinForms.GunaElipse(Me.components)
-        Me.GunaButton2 = New Guna.UI.WinForms.GunaButton()
+        Me.Label1 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.GunaTransfarantPictureBox1 = New Guna.UI.WinForms.GunaTransfarantPictureBox()
         Me.Label2 = New System.Windows.Forms.Label()
@@ -39,50 +34,24 @@ Partial Class register
         Me.GunaCirclePictureBox1 = New Guna.UI.WinForms.GunaCirclePictureBox()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
+        Me.Label5 = New System.Windows.Forms.Label()
+        Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
         Me.Panel1.SuspendLayout()
         CType(Me.GunaTransfarantPictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.GunaTransfarantPictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.GunaCirclePictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(84, 426)
-        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(51, 17)
-        Me.Label1.TabIndex = 17
-        Me.Label1.Text = "Label1"
-        Me.Label1.Visible = False
-        '
-        'GunaTextBox3
-        '
-        Me.GunaTextBox3.BaseColor = System.Drawing.Color.White
-        Me.GunaTextBox3.BorderColor = System.Drawing.Color.Silver
-        Me.GunaTextBox3.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.GunaTextBox3.FocusedBaseColor = System.Drawing.Color.White
-        Me.GunaTextBox3.FocusedBorderColor = System.Drawing.Color.FromArgb(CType(CType(100, Byte), Integer), CType(CType(88, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.GunaTextBox3.FocusedForeColor = System.Drawing.SystemColors.ControlText
-        Me.GunaTextBox3.Font = New System.Drawing.Font("Segoe UI", 9.0!)
-        Me.GunaTextBox3.Location = New System.Drawing.Point(72, 471)
-        Me.GunaTextBox3.Margin = New System.Windows.Forms.Padding(4)
-        Me.GunaTextBox3.Name = "GunaTextBox3"
-        Me.GunaTextBox3.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
-        Me.GunaTextBox3.SelectedText = ""
-        Me.GunaTextBox3.Size = New System.Drawing.Size(425, 37)
-        Me.GunaTextBox3.TabIndex = 16
-        Me.GunaTextBox3.Text = "GunaTextBox3"
-        Me.GunaTextBox3.Visible = False
-        '
         'GunaButton1
         '
+        Me.GunaButton1.Animated = True
         Me.GunaButton1.AnimationHoverSpeed = 0.07!
         Me.GunaButton1.AnimationSpeed = 0.03!
         Me.GunaButton1.BackColor = System.Drawing.Color.Transparent
         Me.GunaButton1.BaseColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(46, Byte), Integer))
         Me.GunaButton1.BorderColor = System.Drawing.Color.White
         Me.GunaButton1.BorderSize = 2
+        Me.GunaButton1.Cursor = System.Windows.Forms.Cursors.Hand
         Me.GunaButton1.DialogResult = System.Windows.Forms.DialogResult.None
         Me.GunaButton1.FocusedColor = System.Drawing.Color.Empty
         Me.GunaButton1.Font = New System.Drawing.Font("Poppins", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -99,7 +68,7 @@ Partial Class register
         Me.GunaButton1.OnPressedColor = System.Drawing.Color.Black
         Me.GunaButton1.Radius = 6
         Me.GunaButton1.Size = New System.Drawing.Size(213, 52)
-        Me.GunaButton1.TabIndex = 15
+        Me.GunaButton1.TabIndex = 25
         Me.GunaButton1.Text = "Create Account"
         Me.GunaButton1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -121,7 +90,7 @@ Partial Class register
         Me.GunaTextBox2.Radius = 6
         Me.GunaTextBox2.SelectedText = ""
         Me.GunaTextBox2.Size = New System.Drawing.Size(425, 54)
-        Me.GunaTextBox2.TabIndex = 14
+        Me.GunaTextBox2.TabIndex = 24
         Me.GunaTextBox2.Text = "Password"
         '
         'GunaTextBox1
@@ -142,43 +111,19 @@ Partial Class register
         Me.GunaTextBox1.Radius = 6
         Me.GunaTextBox1.SelectedText = ""
         Me.GunaTextBox1.Size = New System.Drawing.Size(425, 54)
-        Me.GunaTextBox1.TabIndex = 13
+        Me.GunaTextBox1.TabIndex = 23
         Me.GunaTextBox1.Text = "Username"
         '
-        'BukaFile
+        'Label1
         '
-        Me.BukaFile.FileName = "OpenFileDialog1"
-        '
-        'GunaElipse1
-        '
-        Me.GunaElipse1.TargetControl = Me
-        '
-        'GunaButton2
-        '
-        Me.GunaButton2.AnimationHoverSpeed = 0.07!
-        Me.GunaButton2.AnimationSpeed = 0.03!
-        Me.GunaButton2.BackColor = System.Drawing.Color.Transparent
-        Me.GunaButton2.BaseColor = System.Drawing.Color.White
-        Me.GunaButton2.BorderColor = System.Drawing.Color.White
-        Me.GunaButton2.BorderSize = 1
-        Me.GunaButton2.DialogResult = System.Windows.Forms.DialogResult.None
-        Me.GunaButton2.FocusedColor = System.Drawing.Color.Empty
-        Me.GunaButton2.Font = New System.Drawing.Font("Poppins", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.GunaButton2.ForeColor = System.Drawing.Color.White
-        Me.GunaButton2.Image = CType(resources.GetObject("GunaButton2.Image"), System.Drawing.Image)
-        Me.GunaButton2.ImageSize = New System.Drawing.Size(18, 18)
-        Me.GunaButton2.Location = New System.Drawing.Point(1110, 202)
-        Me.GunaButton2.Margin = New System.Windows.Forms.Padding(4)
-        Me.GunaButton2.Name = "GunaButton2"
-        Me.GunaButton2.OnHoverBaseColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(230, Byte), Integer))
-        Me.GunaButton2.OnHoverBorderColor = System.Drawing.Color.Black
-        Me.GunaButton2.OnHoverForeColor = System.Drawing.Color.White
-        Me.GunaButton2.OnHoverImage = Nothing
-        Me.GunaButton2.OnPressedColor = System.Drawing.Color.Black
-        Me.GunaButton2.Radius = 6
-        Me.GunaButton2.Size = New System.Drawing.Size(41, 41)
-        Me.GunaButton2.TabIndex = 20
-        Me.GunaButton2.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
+        Me.Label1.AutoSize = True
+        Me.Label1.Location = New System.Drawing.Point(775, 9)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(51, 17)
+        Me.Label1.TabIndex = 27
+        Me.Label1.Text = "Label1"
+        Me.Label1.Visible = False
         '
         'Panel1
         '
@@ -192,7 +137,7 @@ Partial Class register
         Me.Panel1.Margin = New System.Windows.Forms.Padding(4)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(737, 619)
-        Me.Panel1.TabIndex = 19
+        Me.Panel1.TabIndex = 29
         '
         'GunaTransfarantPictureBox1
         '
@@ -243,7 +188,7 @@ Partial Class register
         Me.GunaCirclePictureBox1.Name = "GunaCirclePictureBox1"
         Me.GunaCirclePictureBox1.Size = New System.Drawing.Size(232, 214)
         Me.GunaCirclePictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.GunaCirclePictureBox1.TabIndex = 18
+        Me.GunaCirclePictureBox1.TabIndex = 28
         Me.GunaCirclePictureBox1.TabStop = False
         Me.GunaCirclePictureBox1.UseTransfarantBackground = False
         '
@@ -258,7 +203,7 @@ Partial Class register
         Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(64, 28)
-        Me.Label3.TabIndex = 22
+        Me.Label3.TabIndex = 32
         Me.Label3.Text = "Sign in"
         '
         'Label4
@@ -271,29 +216,43 @@ Partial Class register
         Me.Label4.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(170, 28)
-        Me.Label4.TabIndex = 21
+        Me.Label4.TabIndex = 31
         Me.Label4.Text = "Already a member?"
         '
-        'Register
+        'Label5
+        '
+        Me.Label5.AutoSize = True
+        Me.Label5.Location = New System.Drawing.Point(775, 48)
+        Me.Label5.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
+        Me.Label5.Name = "Label5"
+        Me.Label5.Size = New System.Drawing.Size(51, 17)
+        Me.Label5.TabIndex = 33
+        Me.Label5.Text = "Label5"
+        Me.Label5.Visible = False
+        '
+        'OpenFileDialog1
+        '
+        Me.OpenFileDialog1.FileName = "OpenFileDialog1"
+        '
+        'register
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(40, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(46, Byte), Integer))
         Me.ClientSize = New System.Drawing.Size(1280, 619)
+        Me.Controls.Add(Me.Label5)
         Me.Controls.Add(Me.GunaButton1)
         Me.Controls.Add(Me.GunaTextBox2)
         Me.Controls.Add(Me.GunaTextBox1)
-        Me.Controls.Add(Me.GunaButton2)
+        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.GunaCirclePictureBox1)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label4)
-        Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.GunaTextBox3)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
-        Me.Name = "Register"
+        Me.Name = "register"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Sign_up"
+        Me.Text = "Register"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
         CType(Me.GunaTransfarantPictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
@@ -303,14 +262,10 @@ Partial Class register
         Me.PerformLayout()
 
     End Sub
-    Friend WithEvents Label1 As System.Windows.Forms.Label
-    Friend WithEvents GunaTextBox3 As Guna.UI.WinForms.GunaTextBox
     Friend WithEvents GunaButton1 As Guna.UI.WinForms.GunaButton
     Friend WithEvents GunaTextBox2 As Guna.UI.WinForms.GunaTextBox
     Friend WithEvents GunaTextBox1 As Guna.UI.WinForms.GunaTextBox
-    Friend WithEvents BukaFile As System.Windows.Forms.OpenFileDialog
-    Friend WithEvents GunaElipse1 As Guna.UI.WinForms.GunaElipse
-    Friend WithEvents GunaButton2 As Guna.UI.WinForms.GunaButton
+    Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents Panel1 As System.Windows.Forms.Panel
     Friend WithEvents GunaTransfarantPictureBox1 As Guna.UI.WinForms.GunaTransfarantPictureBox
     Friend WithEvents Label2 As System.Windows.Forms.Label
@@ -318,4 +273,6 @@ Partial Class register
     Friend WithEvents GunaCirclePictureBox1 As Guna.UI.WinForms.GunaCirclePictureBox
     Friend WithEvents Label3 As System.Windows.Forms.Label
     Friend WithEvents Label4 As System.Windows.Forms.Label
+    Friend WithEvents Label5 As System.Windows.Forms.Label
+    Friend WithEvents OpenFileDialog1 As System.Windows.Forms.OpenFileDialog
 End Class

@@ -1,4 +1,5 @@
-﻿Imports System.Data.Odbc
+﻿Imports MySql.Data.MySqlClient
+Imports System.IO
 Public Class sign_in
 
     Private Sub Label3_Click(sender As Object, e As EventArgs) Handles Label3.Click
@@ -12,26 +13,42 @@ Public Class sign_in
 
     Private Sub GunaButton1_Click(sender As Object, e As EventArgs) Handles GunaButton1.Click
         If GunaTextBox1.Text = "" Or GunaTextBox2.Text = "" Then
-            MessageBox.Show("Username atau Password Anda Masih Kosong")
+            MessageBox.Show("Password and Username are still empty")
         Else
             Call koneksi()
-            Cmd = New OdbcCommand("select * from tbl_user where username = '" & GunaTextBox1.Text & "' and password = '" & GunaTextBox2.Text & "'", Conn)
+            Cmd = New MySqlCommand("select * from tbl_user where username = '" & GunaTextBox1.Text & "' and password = '" & GunaTextBox2.Text & "'", Conn)
             Rd = Cmd.ExecuteReader
             Rd.Read()
             If Rd.HasRows = True Then
-                Dashboard.GunaCirclePictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
-                Dashboard.GunaCirclePictureBox1.Image = Image.FromFile(Rd.Item("url_gambar"))
-                Dashboard.lbl_nama.Text = "Hi," + " " + Rd.Item("username")
+                Try
 
-                Dashboard.GunaCirclePictureBox2.SizeMode = PictureBoxSizeMode.StretchImage
-                Dashboard.GunaCirclePictureBox2.Image = Image.FromFile(Rd.Item("url_gambar"))
-                Dashboard.lbl_username.Text = "Username : " + Rd.Item("username")
-                Dashboard.lbl_password.Text = "Password : " + Rd.Item("password")
-                foto.Hide()
+                    Dim gambar() As Byte
+
+                    If Rd.HasRows() Then
+
+                        gambar = Rd("photo")
+
+                        Dim ms As New MemoryStream(gambar)
+                        Dashboard.User_foto.Image = Image.FromStream(ms)
+                        Dashboard.User_foto.SizeMode = PictureBoxSizeMode.StretchImage
+                        Dashboard.lbl_nama.Text = Rd("username")
+
+                        Dashboard.photo_akun.Image = Image.FromStream(ms)
+                        Dashboard.photo_akun.SizeMode = PictureBoxSizeMode.StretchImage
+                        Dashboard.lbl_username.Text = "Username: " + Rd("username")
+                        Dashboard.lbl_password.Text = "Password: " + Rd("Password")
+                    Else
+                        PictureBox1.Image = Nothing
+                        MsgBox("YOUR DATA DOES NOT EXIST", vbCritical, "Demo System")
+                    End If
+                    Rd.Close()
+                Catch ex As Exception
+                    MessageBox.Show("ERROR : " & ex.Message, "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error)
+                End Try
                 Me.Hide()
                 Dashboard.Show()
             Else
-                MessageBox.Show("Password atau Username Anda Salah")
+                MessageBox.Show("Your Password and Username is wrong")
             End If
         End If
     End Sub

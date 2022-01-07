@@ -27,14 +27,15 @@ Partial Class sign_in
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.GunaTextBox2 = New Guna.UI.WinForms.GunaTextBox()
         Me.GunaTextBox1 = New Guna.UI.WinForms.GunaTextBox()
-        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'GunaButton1
         '
+        Me.GunaButton1.Animated = True
         Me.GunaButton1.AnimationHoverSpeed = 0.07!
         Me.GunaButton1.AnimationSpeed = 0.03!
         Me.GunaButton1.BackColor = System.Drawing.Color.Transparent
@@ -47,7 +48,7 @@ Partial Class sign_in
         Me.GunaButton1.ForeColor = System.Drawing.Color.White
         Me.GunaButton1.Image = Nothing
         Me.GunaButton1.ImageSize = New System.Drawing.Size(20, 20)
-        Me.GunaButton1.Location = New System.Drawing.Point(192, 368)
+        Me.GunaButton1.Location = New System.Drawing.Point(191, 369)
         Me.GunaButton1.Margin = New System.Windows.Forms.Padding(4)
         Me.GunaButton1.Name = "GunaButton1"
         Me.GunaButton1.OnHoverBaseColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(230, Byte), Integer))
@@ -57,7 +58,7 @@ Partial Class sign_in
         Me.GunaButton1.OnPressedColor = System.Drawing.Color.Black
         Me.GunaButton1.Radius = 6
         Me.GunaButton1.Size = New System.Drawing.Size(213, 52)
-        Me.GunaButton1.TabIndex = 16
+        Me.GunaButton1.TabIndex = 23
         Me.GunaButton1.Text = "Sign In"
         Me.GunaButton1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center
         '
@@ -68,11 +69,11 @@ Partial Class sign_in
         Me.Label3.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Label3.Font = New System.Drawing.Font("Poppins", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.FromArgb(CType(CType(16, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(230, Byte), Integer))
-        Me.Label3.Location = New System.Drawing.Point(360, 455)
+        Me.Label3.Location = New System.Drawing.Point(359, 456)
         Me.Label3.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(77, 28)
-        Me.Label3.TabIndex = 15
+        Me.Label3.TabIndex = 22
         Me.Label3.Text = "Register"
         '
         'Label2
@@ -81,11 +82,11 @@ Partial Class sign_in
         Me.Label2.BackColor = System.Drawing.Color.Transparent
         Me.Label2.Font = New System.Drawing.Font("Poppins", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.White
-        Me.Label2.Location = New System.Drawing.Point(167, 455)
+        Me.Label2.Location = New System.Drawing.Point(166, 456)
         Me.Label2.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(200, 28)
-        Me.Label2.TabIndex = 14
+        Me.Label2.TabIndex = 21
         Me.Label2.Text = "don't have an account?"
         '
         'Label1
@@ -94,12 +95,23 @@ Partial Class sign_in
         Me.Label1.BackColor = System.Drawing.Color.Transparent
         Me.Label1.Font = New System.Drawing.Font("Poppins", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(257, 60)
+        Me.Label1.Location = New System.Drawing.Point(256, 61)
         Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(161, 46)
-        Me.Label1.TabIndex = 13
+        Me.Label1.TabIndex = 20
         Me.Label1.Text = "FITGames."
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
+        Me.PictureBox1.Location = New System.Drawing.Point(94, -7)
+        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(241, 177)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox1.TabIndex = 19
+        Me.PictureBox1.TabStop = False
         '
         'GunaTextBox2
         '
@@ -113,14 +125,14 @@ Partial Class sign_in
         Me.GunaTextBox2.FocusedForeColor = System.Drawing.SystemColors.ControlText
         Me.GunaTextBox2.Font = New System.Drawing.Font("Poppins", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GunaTextBox2.ForeColor = System.Drawing.Color.Gray
-        Me.GunaTextBox2.Location = New System.Drawing.Point(89, 266)
+        Me.GunaTextBox2.Location = New System.Drawing.Point(88, 267)
         Me.GunaTextBox2.Margin = New System.Windows.Forms.Padding(4)
         Me.GunaTextBox2.Name = "GunaTextBox2"
         Me.GunaTextBox2.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.GunaTextBox2.Radius = 6
         Me.GunaTextBox2.SelectedText = ""
         Me.GunaTextBox2.Size = New System.Drawing.Size(425, 54)
-        Me.GunaTextBox2.TabIndex = 11
+        Me.GunaTextBox2.TabIndex = 18
         Me.GunaTextBox2.Text = "Password"
         '
         'GunaTextBox1
@@ -135,28 +147,17 @@ Partial Class sign_in
         Me.GunaTextBox1.FocusedForeColor = System.Drawing.SystemColors.ControlText
         Me.GunaTextBox1.Font = New System.Drawing.Font("Poppins", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GunaTextBox1.ForeColor = System.Drawing.Color.Gray
-        Me.GunaTextBox1.Location = New System.Drawing.Point(89, 177)
+        Me.GunaTextBox1.Location = New System.Drawing.Point(88, 178)
         Me.GunaTextBox1.Margin = New System.Windows.Forms.Padding(4)
         Me.GunaTextBox1.Name = "GunaTextBox1"
         Me.GunaTextBox1.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.GunaTextBox1.Radius = 6
         Me.GunaTextBox1.SelectedText = ""
         Me.GunaTextBox1.Size = New System.Drawing.Size(425, 54)
-        Me.GunaTextBox1.TabIndex = 10
+        Me.GunaTextBox1.TabIndex = 17
         Me.GunaTextBox1.Text = "Username"
         '
-        'PictureBox1
-        '
-        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(95, -8)
-        Me.PictureBox1.Margin = New System.Windows.Forms.Padding(4)
-        Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(241, 177)
-        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 12
-        Me.PictureBox1.TabStop = False
-        '
-        'Sign_in
+        'sign_in
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -170,9 +171,9 @@ Partial Class sign_in
         Me.Controls.Add(Me.GunaTextBox2)
         Me.Controls.Add(Me.GunaTextBox1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
-        Me.Name = "Sign_in"
+        Me.Name = "sign_in"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Sign_in"
+        Me.Text = "Form1"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
@@ -185,4 +186,5 @@ Partial Class sign_in
     Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
     Friend WithEvents GunaTextBox2 As Guna.UI.WinForms.GunaTextBox
     Friend WithEvents GunaTextBox1 As Guna.UI.WinForms.GunaTextBox
+
 End Class

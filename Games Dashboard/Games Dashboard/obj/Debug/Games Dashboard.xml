@@ -15,39 +15,43 @@ GamesDashboard
   Overrides the current thread's CurrentUICulture property for all
   resource lookups using this strongly typed resource class.
 </summary>
-</member><member name="P:Games_Dashboard.My.Resources.Resources.console__1_">
+</member><member name="P:Games_Dashboard.My.Resources.Resources.Account_icon_1">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:Games_Dashboard.My.Resources.Resources.dashboard">
+</member><member name="P:Games_Dashboard.My.Resources.Resources.Account_icon_2">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:Games_Dashboard.My.Resources.Resources.dashboard1">
+</member><member name="P:Games_Dashboard.My.Resources.Resources.All_Games_icon_1">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:Games_Dashboard.My.Resources.Resources.games">
+</member><member name="P:Games_Dashboard.My.Resources.Resources.All_Games_icon_2">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:Games_Dashboard.My.Resources.Resources.info_button">
+</member><member name="P:Games_Dashboard.My.Resources.Resources.Dashboard_icon_1">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:Games_Dashboard.My.Resources.Resources.information__1_">
+</member><member name="P:Games_Dashboard.My.Resources.Resources.Dashboard_icon_2">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:Games_Dashboard.My.Resources.Resources.menu__3_">
+</member><member name="P:Games_Dashboard.My.Resources.Resources.Exit_icon_1">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:Games_Dashboard.My.Resources.Resources.user">
+</member><member name="P:Games_Dashboard.My.Resources.Resources.Exit_icon_2">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:Games_Dashboard.My.Resources.Resources.user__1_">
+</member><member name="P:Games_Dashboard.My.Resources.Resources.Information_icon_1">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member><member name="P:Games_Dashboard.My.Resources.Resources.Information_icon_2">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
